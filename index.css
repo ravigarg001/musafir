@@ -16,3 +16,12 @@ body {
 a:hover, a:focus {
     color: red;
 }
+
+li:hover, .li:focus{
+    color: green;
+}
+
+/* .projects{
+    border: 1px solid red;
+    padding: 10px 10px 10px 10px;
+} */

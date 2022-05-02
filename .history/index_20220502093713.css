@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: rgb(252, 245, 245);
+    background: #1A1E26;
+    font-size: 24px;
+    align-items: center;
+}
+
+#more {
+    color: green;
+}
+
+a:hover, a:focus {
+    color: red;
+}
+
+li:hover, .li:focus{
+    color: green;
+}
+
+.projects{
+    border: 1px solid red 
+    padding:rgb(252, 245, 245);
+}
