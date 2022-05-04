@@ -15,8 +15,8 @@ function addCssAndJs(){
     addNewJsFile('Recursion/increasing_order.js');
     addNewJsFile('Recursion/recursiveFactorial.js');
     addNewJsFile('Revision/Sum_pair.js');
-    addNewJsFile('Revision/Sum_of_2DArrays.js')
-    addNewJsFile('Recursion/Fibonnaci_series.js')
+    addNewJsFile('Revision/Sum_of_2DArrays.js');
+    addNewJsFile('Recursion/Fibonnaci_series.js');
     
 }
 /*1. call addNewJsFile(put location of the js file here) */
