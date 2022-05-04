@@ -1,5 +1,6 @@
 function SumOf2DArray()
-{
+{ 
+    alert(`This code is fucked up, so don't run and do something else`);
     function createArray()
     {
         let rowNum = Number(prompt(`Enter the Number of Rows you want in the arrays?`));
