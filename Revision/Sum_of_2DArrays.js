@@ -6,10 +6,10 @@ function SumOf2DArray()
         let colNum = Number(prompt(`Enter the Number of columns you want in the array?`));
         
         let arr = [];
-        // for(let k=0; k<rowNum; k++)
-        // {
-        //     arr[k] = [];
-        // }
+        for(let k=0; k<rowNum; k++)
+        {
+            arr[k] = [];
+        }
 
         function fillArray()
         {   
@@ -19,7 +19,7 @@ function SumOf2DArray()
             {
                 arr[i][j] = Number(prompt(`Enter the ${i}${j}th element of Array`));
             }
-            console.log(arr);
+            alert(arr);
         }
         }
         fillArray();
