@@ -117,14 +117,58 @@ ReverseOfNumber(num) == num? console.log(`Palindrome`) : console.log(`Not a pali
 // console.log(`Reverse of num=${num} is 
 // ${ReverseOfNumber(num)}`)
 
-const arr = [23,42,34,1,5];
-function findMax(){
-    let max;
-    for(let i=0; i<arr.length; i++){
-        for(let j=0; j<arr.length; j++){
-            (arr[i]>=arr[j])? (max>arr[i]?max : (max=arr[i])):max;
-        }
+// const arr = [23,42,34,1,5];
+// function findMax(){
+//     let max;
+//     for(let i=0; i<arr.length; i++){
+//         for(let j=0; j<arr.length; j++){
+//             (arr[i]>=arr[j])? (max>arr[i]?max : (max=arr[i])):max;
+//         }
+//     }
+//     return max;
+// }
+// console.log(findMax());
+
+// const nums = [1,2,3]
+// let totalSum = (nums.reduce((sum, item) => sum + item, 5))
+// //sum starting with 5
+// console.log(totalSum)
+// let totalSum1 = (nums.reduce((sum, item) => sum + item, 15))
+//sum starting with 15
+// console.log(totalSum1)
+// let res = 0;
+// function  sum(n){
+//     if(n<=1){
+//         return n;
+//     }
+//   return n + sum(n-1);
+// }
+// console.log(sum(100));
+// let arr = [1,1,1]
+// let x = arr[0];
+// let y = arr[1];
+// let z = arr[2];
+// function checkifpass(){
+//     return parseInt((z-y)/x);
+// };
+
+// console.log(checkifpass());
+// Length of string. 
+
+
+
+let myString = 'tit'
+function palindrome(myString){
+
+    //write palindrome logic
+    let reverseString = "";
+    for(let i=0; i<myString.length; i++){
+            reverseString = myString.charAt(i) + reverseString;
     }
-    return max;
-}
-console.log(findMax());
+    if(reverseString === myString){
+        console.log(true);
+    }else{
+        console.log(false);
+    }
+    }
+    palindrome(myString);
