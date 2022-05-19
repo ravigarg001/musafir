@@ -172,3 +172,13 @@ function palindrome(myString){
     }
     }
     palindrome(myString);
+
+    let a = 1;
+    let b = 0;
+    while(a<=3)
+    {
+        ++a;
+        b += a*2;
+        console.log(b);
+        a++;
+    }
