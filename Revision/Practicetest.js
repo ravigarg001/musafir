@@ -157,28 +157,49 @@ ReverseOfNumber(num) == num? console.log(`Palindrome`) : console.log(`Not a pali
 
 
 
-let myString = 'tit'
-function palindrome(myString){
+// let myString = 'tit'
+// function palindrome(myString){
 
-    //write palindrome logic
-    let reverseString = "";
-    for(let i=0; i<myString.length; i++){
-            reverseString = myString.charAt(i) + reverseString;
-    }
-    if(reverseString === myString){
-        console.log(true);
-    }else{
-        console.log(false);
-    }
-    }
-    palindrome(myString);
+//     //write palindrome logic
+//     let reverseString = "";
+//     for(let i=0; i<myString.length; i++){
+//             reverseString = myString.charAt(i) + reverseString;
+//     }
+//     if(reverseString === myString){
+//         console.log(true);
+//     }else{
+//         console.log(false);
+//     }
+//     }
+//     palindrome(myString);
 
-    let a = 1;
-    let b = 0;
-    while(a<=3)
+//     let a = 1;
+//     let b = 0;
+//     while(a<=3)
+//     {
+//         ++a;
+//         b += a*2;
+//         console.log(b);
+//         a++;
+//     }
+
+
+let findExponent = (num=Number(prompt(`Enter the base`)),pow=Number(prompt(`Enter the exponent`))) =>
+{
+    if(Number.isNaN(num) || Number.isNaN(pow)){
+        alert(`Enter the number type only`)
+    }
+    let res = 1;
+    if(pow == 0)
     {
-        ++a;
-        b += a*2;
-        console.log(b);
-        a++;
+        return alert(res);
     }
+    for(let i=1; i<=pow; i++)
+    {
+        res = res*num
+    }
+    alert(`${num}^${pow} is ${res}`);
+}
+
+
+
