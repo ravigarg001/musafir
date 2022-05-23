@@ -201,5 +201,17 @@ let findExponent = (num=Number(prompt(`Enter the base`)),pow=Number(prompt(`Ente
     alert(`${num}^${pow} is ${res}`);
 }
 
+// Your code here.
+function chessPattern(r=Number(prompt(`Enter number of rows (Number only)`)),c=Number(prompt(`Enter number of coloms (Nmber only )`))) {
+for(let i=1; i<=r; i++)
+{
+  	let hold = "";
+	for(let j=1; j<=c; j++)
+	{
+      i%2 ? (j%2 ? hold += " " : hold += "*") : (j%2 ? hold += "*" : hold += " ");
+    } console.log(hold);
+}
+alert(`Open console for Pattern`);
+};
 
 
