@@ -214,4 +214,20 @@ for(let i=1; i<=r; i++)
 alert(`Open console for Pattern`);
 };
 
-
+let arr = [3,9,1,6,5,2];
+arr.splice(3,1);
+console.log(arr);
+console.log(arr.indexOf(Math.max(...arr)))
+// console.log((Math.max(...arr)));
+// console.log(arr.indexOf(8));
+let res = [];
+let temparr = arr;
+for(let i=0; i<=arr.length; i++)
+{
+    res.push(Math.max(...temparr));
+    console.log(temparr.indexOf(Math.max(...temparr)))
+    console.log(res);
+    // temparr.splice((temparr.indexOf(Math.max(...arr)),1));
+    // console.log(temparr.indexOf(Math.max(...arr)));
+}
+console.log(res);
