@@ -242,7 +242,7 @@ let showTotalLikes = () => {
   alert(likeCount())
 }
 
-let truthArray = [`What you "seriously" like determines what you DO. Not the otherway around`,'b','c','d','e'];
+let truthArray = [`What you "seriously" like determines what you DO. Not the otherway around`,'Life is a falling leaf','In cycles move the life of ordinary man','Man defaults to his defaults','Be SuperNatural - Instinct'];
 let showTruth = () => {
     let likeCount = () => {
         let like = 0;
