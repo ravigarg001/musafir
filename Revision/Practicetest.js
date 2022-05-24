@@ -241,3 +241,29 @@ let showTotalLikes = () => {
   }
   alert(likeCount())
 }
+
+let truthArray = [`What you "seriously" like determines what you DO. Not the otherway around`,'b','c','d','e'];
+let showTruth = () => {
+    let likeCount = () => {
+        let like = 0;
+        ++like;
+        totalLikes += like;
+        return totalLikes;
+    }
+    if(totalLikes>=truthArray.length){
+        totalLikes = 0;
+    }
+    document.getElementById("btn-name").innerHTML = `More Truth`
+    document.getElementById("onlyTruth").innerHTML = truthArray[likeCount()-1];
+}
+
+let addTruth = () =>{
+    truthArray.push(prompt(`Type the truth`));
+}
+
+let deleteTruth = () => {
+    truthArray.splice((totalLikes-1),1);
+    // console.log(showTruth());
+}
+// note: Even after calling showTruth() in deleteTruth(), it's not rendering the next element as the showTruth function is designed to do 
+// Add web storage https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Client-side_storage#storing_simple_data_%E2%80%94_web_storage
