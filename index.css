@@ -47,3 +47,11 @@ nav, h2{
 button{
     margin: 4px 4px;
 }
+
+#Truth{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+}
