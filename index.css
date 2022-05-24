@@ -17,7 +17,7 @@ a:hover, a:focus {
     color: red;
 }
 
-li:hover, .li:focus{
+.li:focus{
     color: green;
 }
 
@@ -32,11 +32,15 @@ li:hover, .li:focus{
     position: relative;
 }
 
-nav, blockquote{
+nav, h2{
     box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
 
+}
+
+button{
+    margin: 4px 4px;
 }

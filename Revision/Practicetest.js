@@ -231,3 +231,13 @@ alert(`Open console for Pattern`);
 //     // console.log(temparr.indexOf(Math.max(...arr)));
 // }
 // console.log(res);
+let totalLikes = 0;
+let showTotalLikes = () => {
+  let likeCount = () => {
+      let like = 0;
+      ++like;
+      totalLikes += like;
+      return `You clicked me ${totalLikes} times till now`
+  }
+  alert(likeCount())
+}
