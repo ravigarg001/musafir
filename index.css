@@ -30,9 +30,9 @@ a:hover, a:focus {
 } */
 
 
-.projects {
-    border: 3px solid red;
+#Raw_Truths {
     position: relative;
+    border: orangered;
 }
 
 nav, h2{
@@ -41,14 +41,22 @@ nav, h2{
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin-top: 15%;
+}
 
+li, #result{
+    box-sizing: border-box;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
 }
 
 button{
     margin: 4px 4px;
 }
 
-#Truth, #Truth-btn {
+#Truth, #Truth-btn, h1 {
     align-items: center;
     text-align: center;
     display: flex;
@@ -63,3 +71,13 @@ button{
     text-align: center;
     box-sizing: border-box;
 } */
+
+h1{
+    margin-bottom: 0%;
+}
+
+#result{
+    margin: 3%;
+    color: #e60707;
+    background-color: white;
+}

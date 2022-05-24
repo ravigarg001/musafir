@@ -10,6 +10,6 @@ function inputNumber() {
             return n*calculateFactorial(n-1);
         }
     }
-    alert(`Factorial of ${n} is ${calculateFactorial(n)}`)
+    document.getElementById("result").innerHTML = `Factorial of ${n} is ${calculateFactorial(n)}`;
     // document.write.getElementById('factorial') = "hello";
 }

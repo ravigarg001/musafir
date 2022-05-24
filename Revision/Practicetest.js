@@ -198,7 +198,7 @@ let findExponent = (num=Number(prompt(`Enter the base`)),pow=Number(prompt(`Ente
     {
         res = res*num
     }
-    alert(`${num}^${pow} is ${res}`);
+    document.getElementById("result").innerHTML = `${num}^${pow} is ${res}`;
 }
 
 // Your code here.
@@ -239,10 +239,10 @@ let showTotalLikes = () => {
       totalLikes += like;
       return `You clicked me ${totalLikes} times till now`
   }
-  alert(likeCount())
+  document.getElementById("result").innerHTML=(likeCount())
 }
 
-let truthArray = [`What you "seriously" like determines what you DO. Not the otherway around`,'Life is a falling leaf','In cycles move the life of ordinary man','Man defaults to his defaults','Be SuperNatural - Instinct'];
+let truthArray = [`Truth is such a sword that years of tightly held chains break away just by a touch of it in just one moment.`,`What you "seriously" like determines what you DO. Not the otherway around`,'Life is a falling leaf','In cycles move the life of ordinary man','Man default to his defaults','Be SuperNatural - Instinct not the Instructions'];
 let showTruth = () => {
     let likeCount = () => {
         let like = 0;
@@ -251,6 +251,7 @@ let showTruth = () => {
         return totalLikes;
     }
     if(totalLikes>=truthArray.length){
+        alert(`Add your truth. Second hand wisdom doesn't work. Find your own.`);
         totalLikes = 0;
     }
     document.getElementById("btn-name").innerHTML = `More Truth`

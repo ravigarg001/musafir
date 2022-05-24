@@ -7,8 +7,9 @@ function fib(n){
     } 
     return fib(n-2) + fib(n-1)
 }
-alert(fib(num));
+document.getElementById("result").innerHTML = `The ${num}th fibonnaci number is ${fib(num)}`;
 }
+
 
 function fibo(num){
 let arr = [0,1];
