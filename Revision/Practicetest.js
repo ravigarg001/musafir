@@ -242,7 +242,7 @@ let showTotalLikes = () => {
   document.getElementById("result").innerHTML=(likeCount())
 }
 
-let truthArray = [`Truth is such a sword that years of tightly held chains break away just by a touch of it in just one moment.`,`And then he leave`,'Life is a falling leaf','In cycles move the life of ordinary man','Man default to his defaults','Be SuperNatural - Instinct not the Instructions'];
+let truthArray = [`Truth is such a sword that years of tightly held chains break away just by a touch of it in just one moment.`,`force is futile`,`And then he leave`,'Life is a falling leaf','In cycles move the life of ordinary man','Man default to his defaults','Be SuperNatural - Instinct not the Instructions'];
 let showTruth = () => {
     let likeCount = () => {
         let like = 0;
