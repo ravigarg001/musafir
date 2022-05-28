@@ -44,7 +44,7 @@ nav, h2{
     margin-top: 10%;
 }
 
-li, #result{
+li, #result, #input{
     box-sizing: border-box;
     display: flex;
     align-items:center;

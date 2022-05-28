@@ -21,4 +21,6 @@ function addCssAndJs(){
     
 }
 addCssAndJs();
+
+
 /*1. call addNewJsFile(put location of the js file here) */

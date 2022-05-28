@@ -268,3 +268,93 @@ let deleteTruth = () => {
 }
 // note: Even after calling showTruth() in deleteTruth(), it's not rendering the next element as the showTruth function is designed to do 
 // Add web storage https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Client-side_storage#storing_simple_data_%E2%80%94_web_storage
+
+// let initialLikes = 0;
+
+// // function like(){
+// //     return ++initialLikes;
+// // }
+// function likes(){
+//     return function countLikes(){
+//        return ++initialLikes;
+//     }
+    
+// }
+
+// const v1 = likes();
+// console.log(v1());
+// console.log(v1())
+// console.log(v1());
+// console.log(like());
+// console.log(like());
+// console.log(like());
+
+function arrangeInIncreasingOrder()
+{
+    // function renderInputTag()
+    // {   
+    //     let input = document.createElement('input')
+    //     document.getElementById('input').appendChild(input);
+    //     input.placeholder="Enter the number";
+    // }
+    // renderInputTag()
+
+    // function renderButtonTag(btn_name,id,function_name)
+    // {
+    //     let button = document.createElement('button');
+    //     document.getElementById(id).appendChild(button);
+    //     button.innerHTML = `${btn_name}`
+    //     button.addEventListener ("click",function_name);
+    // }
+
+
+    // function addNumber()
+    // {
+    //     numArr.push(document.getElementById("input").innerHTML);
+    // }
+
+    // let keepAddingNumber = true;
+    // while(keepAddingNumber){
+    //     addNumber();
+    // }
+
+    // function stopAdding(){
+    //     keepAddingNumber = false;
+    // }
+    // renderButtonTag("Add Number","input",addNumber);
+    // renderButtonTag("Stop","input",stopAdding)
+
+    const numArr = [];
+    let totalNumbers = Number(prompt(`What is total number of elements to sort?`));
+    for(let i=0; i<totalNumbers; i++)
+    {
+        numArr.push(Number(prompt(`Add the entry number ${i+1}`)))
+    }
+    
+    // function showSortedArr(){
+    let swap = (arr,i,j) => 
+    {
+        let temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
+    
+    function bubbleSort(arr)
+    {
+        for(let i=0; i<arr.length-1; i++)
+        {
+            for(let j=0; j<arr.length-1; j++)// total elements is n but number of adjacent pairs is n-1.
+            {
+                if(arr[j]>arr[j+1])
+                {
+                    swap(arr,j,j+1)
+                }
+            }
+        }
+    }
+    bubbleSort(numArr);
+    document.getElementById('result').innerHTML = numArr;
+    }
+    // renderButtonTag("Show Array","input",showSortedArr)
+// }
+    
