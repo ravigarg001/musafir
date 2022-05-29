@@ -231,16 +231,16 @@ alert(`Open console for Pattern`);
 //     // console.log(temparr.indexOf(Math.max(...arr)));
 // }
 // console.log(res);
-let totalLikes = 0;
-let showTotalLikes = () => {
-  let likeCount = () => {
-      let like = 0;
-      ++like;
-      totalLikes += like;
-      return `You clicked me ${totalLikes} times till now`
-  }
-  document.getElementById("result").innerHTML=(likeCount())
-}
+// let totalLikes = 0;
+// let showTotalLikes = () => {
+//   let likeCount = () => {
+//       let like = 0;
+//       ++like;
+//       totalLikes += like;
+//       return `You clicked me ${totalLikes} times till now`
+//   }
+//   document.getElementById("result").innerHTML=(likeCount())
+// }
 
 let truthArray = [`Truth is such a sword that years of tightly held chains break away just by a touch of it in just one moment.`,`force is futile`,`And then he leave`,'Life is a falling leaf','In cycles move the life of ordinary man','Man default to his defaults','Be SuperNatural - Instinct not the Instructions'];
 let showTruth = () => {
@@ -357,4 +357,36 @@ function arrangeInIncreasingOrder()
     }
     // renderButtonTag("Show Array","input",showSortedArr)
 // }
+
+//closures
+
+// function outer()
+// {
+//     let count = 0;
     
+//     return function increment()
+//     {
+//         if(count>=2){
+//            return console.log(`you can't run me now`)
+//         }
+//         return count++
+//     }
+// }
+
+// const something = outer();
+
+// console.log(something());
+// console.log(something());
+// console.log(something());
+// let increaseClicks;
+
+
+function countClicks(){
+    count = 0;
+    return ()=>{return ++count}
+}
+    const x = countClicks()
+
+    function startCounting(){
+    document.getElementById("result").innerHTML=(x())
+} 
