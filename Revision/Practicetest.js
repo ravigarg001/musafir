@@ -242,7 +242,7 @@ alert(`Open console for Pattern`);
 //   document.getElementById("result").innerHTML=(likeCount())
 // }
 
-let truthArray = [`Truth is such a sword that years of tightly held chains break away just by a touch of it in just one moment.`,`force is futile`,`And then he leave`,'Life is a falling leaf','In cycles move the life of ordinary man','Man default to his defaults','Be SuperNatural - Instinct not the Instructions'];
+let truthArray = [`Man does what he feels not what he should.`,`Time creates existence`,`more words less meaning`,'A paralyzed bird cannot fly','In cycles move the life of ordinary man','Man default to his defaults'];
 let showTruth = () => {
     let totalLikes = 0;
     let likeCount = () => 
