@@ -762,7 +762,7 @@ function createFunction() {
     secCount = Number(prompt(`Enter seconds`)) + minCount; 
     function start(){
     if(secCount >= 0){
-      document.getElementById('result').innerHTML = secCount;
+      document.getElementById('result').innerHTML = `${secCount} seconds left`;
       secCount--;
       setTimeout(start,1000)
     }
