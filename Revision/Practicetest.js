@@ -245,7 +245,6 @@ alert(`Open console for Pattern`);
 let truthArray = ["Time creates existence","more words less meaning","A paralyzed bird cannot fly"];
 let totalLikes = 0;
 let showTruth = () => {
-    
     let likeCount = () => {
         let like = 0;
         ++like;
@@ -784,4 +783,37 @@ function createFunction() {
 
   // let user1 = createUser('ravi', 21);
   // let user2 = createUser('will',29);
-  
+//   let obj = {
+//     a: 1,
+//     b : 2,
+//     c : 3,
+//     d : 4,
+//     e : 5,
+//     f : 6,
+//     g : 7,
+//     h : 8,
+//     i : 9,
+//     j : 10,
+//     k : 12,
+//     l : 13,
+//     m : 14,
+//     n : 15,
+//     o : 16,
+//     p : 17,
+//     q : 18,
+//     r : 19,
+//     s : 20,
+//     t : 21,
+//     u : 22,
+//     v : 23,
+//     w : 24,
+//     y : 25,
+//     z : 26
+//   }
+//   console.log(obj.w);
+//  let alphabets = ['a','b','c']
+//  let alphToNum = alphabets.map(alphabet => { alphabets.forEach(element => {
+//    return obj.element
+//  }); });
+
+//   console.log(alphToNum);
