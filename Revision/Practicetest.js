@@ -242,10 +242,11 @@ alert(`Open console for Pattern`);
 //   document.getElementById("result").innerHTML=(likeCount())
 // }
 
-let truthArray = [`Man does what he feels not what he should.`,`Time creates existence`,`more words less meaning`,'A paralyzed bird cannot fly','In cycles move the life of ordinary man','Man default to his defaults'];
+let truthArray = ["Time creates existence","more words less meaning","A paralyzed bird cannot fly"];
+let totalLikes = 0;
 let showTruth = () => {
-    let totalLikes = 0;
-    let likeCount = () => 
+    
+    let likeCount = () => {
         let like = 0;
         ++like;
         totalLikes += like;
