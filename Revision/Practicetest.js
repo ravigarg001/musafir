@@ -242,9 +242,9 @@ alert(`Open console for Pattern`);
 //   document.getElementById("result").innerHTML=(likeCount())
 // }
 
-let truthArray = [`Truth is such a sword that years of tightly held chains break away just by a touch of it in just one moment.`,`force is futile`,`And then he leave`,'Life is a falling leaf','In cycles move the life of ordinary man','Man default to his defaults','Be SuperNatural - Instinct not the Instructions'];
+let truthArray = [`Man does what he feels not what he should.`,`Time creates existence`,`more words less meaning`,'A paralyzed bird cannot fly','In cycles move the life of ordinary man','Man default to his defaults'];
 let showTruth = () => {
-  let totalLikes = 0;
+    let totalLikes = 0;
     let likeCount = () => {
         let like = 0;
         ++like;
@@ -763,7 +763,7 @@ function createFunction() {
     secCount = Number(prompt(`Enter seconds`)) + minCount; 
     function start(){
     if(secCount >= 0){
-      document.getElementById('result').innerHTML = secCount;
+      document.getElementById('result').innerHTML = `${secCount} seconds left`;
       secCount--;
       setTimeout(start,1000)
     }
@@ -783,6 +783,7 @@ function createFunction() {
 
   // let user1 = createUser('ravi', 21);
   // let user2 = createUser('will',29);
+<<<<<<< HEAD
 //   let obj = {
 //     a: 1,
 //     b : 2,
@@ -817,3 +818,6 @@ function createFunction() {
 //  }); });
 
 //   console.log(alphToNum);
+=======
+  
+>>>>>>> ca4fe1c390d22d956af23368e180fb7ca8ef902c
