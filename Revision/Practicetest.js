@@ -783,7 +783,6 @@ function createFunction() {
 
   // let user1 = createUser('ravi', 21);
   // let user2 = createUser('will',29);
-<<<<<<< HEAD
 //   let obj = {
 //     a: 1,
 //     b : 2,
@@ -818,6 +817,3 @@ function createFunction() {
 //  }); });
 
 //   console.log(alphToNum);
-=======
-  
->>>>>>> ca4fe1c390d22d956af23368e180fb7ca8ef902c
