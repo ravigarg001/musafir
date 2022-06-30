@@ -11,12 +11,12 @@ function addCssAndJs(){
         script.src = fileLocation;
     }
 
-    addNewJsFile('Recursion/decreasing_order.js');
-    addNewJsFile('Recursion/increasing_order.js');
-    addNewJsFile('Recursion/recursiveFactorial.js');
+    addNewJsFile('Revision/decreasing_order.js');
+    addNewJsFile('Revision/increasing_order.js');
+    addNewJsFile('Revision/recursiveFactorial.js');
     addNewJsFile('Revision/Sum_pair.js');
     addNewJsFile('Revision/Sum_of_2DArrays.js');
-    addNewJsFile('Recursion/Fibonnaci_series.js');
+    addNewJsFile('Revision/Fibonnaci_series.js');
     addNewJsFile('Revision/Practicetest.js')
     
 }
