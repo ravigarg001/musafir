@@ -1,71 +1,102 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Ravi Garg - A Musafir</title>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-YP53G5WJ42"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <head>
+    <title>Ravi Garg - A Musafir</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YP53G5WJ42"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'G-YP53G5WJ42');
-</script>
-<!-- <link href="index.css" rel="stylesheet" type="text/css"></link> -->
-<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,100' rel='stylesheet' type='text/css'>
-<script src="index.js"></script>
-</head>
+      gtag("config", "G-YP53G5WJ42");
+    </script>
 
-<body>
-<!-- <div class="about" >
-    <h2>MUSAFIR</h2>
-    <h1>Think... clearly</h1>
-    <p> <a id="more" href="/about">Read more about my life...</a></p> 
-</div>-->
-<!-- <blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">Clarity over diversity<br>Destination over journey<br>Desperation over discipline</p>&mdash; ivaR (@ravigarg001) <a href="https://twitter.com/ravigarg001/status/1526656433101877248?ref_src=twsrc%5Etfw">May 17, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
-<div id="Raw_Truths">
-  <h1>Raw Truths</h1>
-  <div id="Truth">
-    <em><p id="onlyTruth"></p></em>
-  </div>
-  <div id="Truth-btn">
-    <button onclick="showTruth()" id="btn-name">Show Truth</button>
-    <button onclick="addTruth()">Add Truth</button>
-    <button onclick="deleteTruth()">Delete Truth</button>
-  </div>
-</div>
-<!-- <p><em>"Force is futile"</em></p> -->
-<h2>Basic logics</h2>
-<ul class="projects">
-  <span id="input"></span>
-  <span id="result"></span>
-  <!-- <li><button class="cssAdder" onclick="addCssAndJs()">Apply Css & javascript</button> -- Already added.</li> -->
-  <li><button onclick="Timer(100)">Start timer</button></li>
-  <li><button onclick="inputNumber()">Find Factorial</button></li>
-  <li><button onclick="inputNumber1()">Increasing numbers </button></li>
-  <li><button onclick="inputNumber2()">Decreasing numbers</button></li>
-  <li><button onclick="findExponent()">Exponent of a Number</button></li>
-  <li><button onclick="checkSumPair()">Check if Sum pair exist in an array</button></li>
-  <li><button onclick="inputNumber3()">Find the term in fibonnaci series</button></li>
-  <li><button onclick="chessPattern()">Print the patter of chess</button></li>
-  <li><button id="highlight" onclick="startCounting()">Count Everytime I click</button></li>
-  <li><button onclick="arrangeInIncreasingOrder()">Arrange Numbers in increasing order</button></li>
-  <!-- <li><button onclick="SumOf2DArray()">Create and output Sum of 2, 2-D Arrays</button></li> -->
-</ul>
+    <!-- <link href="index.css" rel="stylesheet" type="text/css"></link> -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,300,500,100"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="index.js"></script>
+  </head>
 
-<nav>
-  <ul>
-  <button><a href="https://twitter.com/ravigarg001" target="_blank">Twitter</a></button><br>
-  <button><a href="tel:+91-9548518042">Call me</a></button>
-  <button><a href="mailto:ravigarg.connect@gmail.com">Email</a></button>
-  <button><a href="https://github.com/ravigarg001" target="_blank">Github</a></button>
-  <!-- <button><a href="https://peerlist.io/ravigarg" target="_blank">Peerlist</a></button> -->
-  <!-- <button><a href="https://www.linkedin.com/in/ravi-garg-6b8615190/" target="_blank">Linkedin</a></button> -->
-  <!-- <button><a href="https://Musafir.tech/">Home</a></button> -->
-  </ul>
-</nav>
-</body>
-<!-- <script src="Recursion/recursiveFactorial.js"></script> -->
-<!-- <script src="Recursion/increasing_order.js"></script> -->
-<footer></footer>
+  <body>
+    
+    <div id="Raw_Truths">
+      <h1>Raw Truths</h1>
+      <div id="Truth">
+        <em><p id="onlyTruth"></p></em>
+      </div>
+      <div id="Truth-btn">
+        <button onclick="showTruth()" id="btn-name">Show Truth</button>
+        <button onclick="addTruth()">Add Truth</button>
+        <button onclick="deleteTruth()">Delete Truth</button>
+      </div>
+    </div>
+    <!-- <p><em>"Force is futile"</em></p> -->
+    <h2>Basic logics</h2>
+    <ul class="projects">
+      <span id="input"></span>
+      <span id="result"></span>
+      <span id="feature"></span> <br><br>
+      <!-- <li><button class="cssAdder" onclick="addCssAndJs()">Apply Css & javascript</button> -- Already added.</li> -->
+      <li><button onclick="Timer(100)">Start timer</button></li>
+      <li><button onclick="inputNumber()">Find Factorial</button></li>
+      <li><button onclick="inputNumber1()">Increasing numbers</button></li>
+      <li><button onclick="inputNumber2()">Decreasing numbers</button></li>
+      <li><button onclick="findExponent()">Exponent of a Number</button></li>
+      <li>
+        <button onclick="checkSumPair()">
+          Check if Sum pair exist in an array
+        </button>
+      </li>
+      <li>
+        <button onclick="inputNumber3()">
+          Find the term in fibonnaci series
+        </button>
+      </li>
+      <li>
+        <button onclick="chessPattern()">Print the patter of chess</button>
+      </li>
+      <li>
+        <button id="highlight" onclick="startCounting()">
+          Count Everytime I click
+        </button>
+      </li>
+      <li>
+        <button onclick="arrangeInIncreasingOrder()">
+          Arrange Numbers in increasing order
+        </button>
+
+        <li><button>To-do List</button></li>
+
+      </li>
+      <!-- <li><button onclick="SumOf2DArray()">Create and output Sum of 2, 2-D Arrays</button></li> -->
+    </ul>
+
+    <nav>
+      <ul>
+        <button>
+          <a href="https://twitter.com/ravigarg001" target="_blank"
+            >Twitter</a
+          ></button
+        ><br />
+        <button><a href="tel:+91-9548518042">Call me</a></button>
+        <button><a href="mailto:ravigarg.connect@gmail.com">Email</a></button>
+        <button>
+          <a href="https://github.com/ravigarg001" target="_blank">Github</a>
+        </button>
+        <!-- <button><a href="https://peerlist.io/ravigarg" target="_blank">Peerlist</a></button> -->
+        <!-- <button><a href="https://www.linkedin.com/in/ravi-garg-6b8615190/" target="_blank">Linkedin</a></button> -->
+        <!-- <button><a href="https://Musafir.tech/">Home</a></button> -->
+      </ul>
+    </nav>
+    
+  </body>
+  <!-- <script src="Recursion/recursiveFactorial.js"></script> -->
+  <!-- <script src="Recursion/increasing_order.js"></script> -->
+  <footer></footer>
 </html>

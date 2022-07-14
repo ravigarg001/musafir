@@ -1,11 +1,13 @@
-function addCssAndJs(){
+function addCssAndJs()
+{
     let link = document.createElement('link');
     link.rel = 'stylesheet';
     link.type = 'text/css';
     link.href = 'index.css';
     document.head.appendChild(link);
 
-    function addNewJsFile(fileLocation){
+    function addNewJsFile(fileLocation)
+    {
         let script = document.createElement('script');
         document.head.appendChild(script);
         script.src = fileLocation;
