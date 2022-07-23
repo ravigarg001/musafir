@@ -524,8 +524,7 @@
     createButton("Add", 'feature',addTask)
     }
     
-launchTodo()
-    
+// launchTodo()
 var toDoList = [];
 function addTask() {
   let x = `${document.querySelector}`
@@ -534,10 +533,27 @@ function addTask() {
 }
     
     
-
-
-
+var average = function(salary) {
+  let max, min;
+  max = salary[0];
+  min = salary[0]
+  for(let i = 0; i<salary.length-1; i++)
+      {
+          if(salary[i+1]>max)
+          {
+            max = salary[i+1]
+          }
+          if(salary[i+1]<min)
+          {
+            min = salary[i + 1];
+          }    
+      }
+  console.log(max, min);   
   
+};
+
+
+average([2, 6, 8, 3, 1]);
 
 
 

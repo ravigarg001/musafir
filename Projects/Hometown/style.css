@@ -1,0 +1,11 @@
+#front-image{
+   background-image: url(resources/Jaguar-eyes.jpg);
+   background-size: cover;
+}
+
+.main-line{
+   color: white;
+   display: block;
+  
+   padding: 300px;
+}

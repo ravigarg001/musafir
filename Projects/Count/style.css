@@ -1,0 +1,68 @@
+body{
+   background-color: black;
+   text-align: center;
+   color: white;
+   margin-top: 200px;
+   /* display: flex;
+   flex-direction: column;
+   align-items: center; */
+   border: 2px solid rgba(0, 55, 128, 0.171);
+   margin-left: 10%;
+   margin-right: 10%;
+}
+
+.btn{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 50px;
+   /* border: 2px solid ; */
+}
+
+.increment-btn, .decrement-btn, .save-btn{
+   margin: 5px;
+   padding: 10px 20px;
+   margin-left: 50px;
+   margin-right: 50px;
+   /* box-shadow: 0 0 20px white; */
+   color: white;
+   width: 150px;
+}
+
+.increment-btn{
+   background: rgb(185, 29, 29);
+}
+
+.decrement-btn{
+   background: #636397;
+}
+
+.save-btn{
+   background: green;
+}
+
+#count-el{
+   background: linear-gradient(red,#636397);
+   width: 50px;
+   display: block;
+   margin: 0 auto;
+   padding: 3px 5px;
+   border-radius: 50%;
+   margin-top:  50px;
+}
+
+.increment-btn:hover{
+   color: red;
+   background-color: white;
+   box-shadow: 0 0 20px red;
+}
+
+.decrement-btn:hover{
+   color: #636397;
+   background-color: white;
+   box-shadow: 0 0 20px #636397;
+}
+
+/* .main{
+   background-color: pi
+} */
