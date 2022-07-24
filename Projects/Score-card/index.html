@@ -8,26 +8,33 @@
    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-      <div class="score-board">
-         <div class="home">
-            <h2 class="team">HOME</h2>
-            <h1 class="score" id="home-score">0</h1>
-            <div class="btn">
-               <button class="increase-score" onclick="increaseHomeBy1()">+1</button>
-               <button class="increase-score" onclick="increaseHomeBy2()">+2</button>
-               <button class="increase-score" onclick="increaseHomeBy3()">+3</button>
-            </div>
-         </div>
-         <div class="guest ">
-            <h2 class="team">GUEST</h2>
-            <h1 class="score"  id="guest-score">0</h1>
-            <div class="btn">
-               <button class="increase-score" onclick="increaseGuestBy1()">+1</button>
-               <button class="increase-score" onclick="increaseGuestBy2()">+2</button>
-               <button class="increase-score" onclick="increaseGuestBy3()">+3</button>
-            </div>
+
+<div id="main">
+   <div class="score-board">
+
+      <div class="home">
+         <h2 class="team">HOME</h2>
+         <h1 class="score" id="home-score">0</h1>
+         <div class="btn">
+            <button class="increase-score" onclick="increaseHomeBy1()">+1</button>
+            <button class="increase-score" onclick="increaseHomeBy2()">+2</button>
+            <button class="increase-score" onclick="increaseHomeBy3()">+3</button>
          </div>
       </div>
+
+      <div class="guest ">
+         <h2 class="team">GUEST</h2>
+         <h1 class="score"  id="guest-score">0</h1>
+         <div class="btn">
+            <button class="increase-score" onclick="increaseGuestBy1()">+1</button>
+            <button class="increase-score" onclick="increaseGuestBy2()">+2</button>
+            <button class="increase-score" onclick="increaseGuestBy3()">+3</button>
+         </div>
+      </div>
+
+   </div>
+   <button class="new-game" onclick="newGame()">New Game</button>
+</div>
 <script src="script.js"></script>
 </body>
 </html>

@@ -42,6 +42,11 @@ function increaseGuestBy3() {
    guestScore.innerText = currentGuestScore;
 }
 
-
+function newGame() {
+   homeScore.textContent = 0;
+   guestScore.textContent = 0;
+   currentGuestScore = 0;
+   currentHomeScore = 0;
+}
 
 

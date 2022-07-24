@@ -70,6 +70,24 @@ body{
 }
 
 button:hover{
-   color: green;
+   /* color: green; */
+   box-shadow: 0 0 20px green;
 }
 
+.new-game{
+   /* margin: 20px; */
+   padding: 5px 20px;
+   font-weight: bold;
+   background: #1B244A;
+   color: rgb(122, 173, 56);
+   font-size: 15px;
+   width: 200px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 50px;
+}
+
+/* #main{
+   background: #1B244A;
+} */
