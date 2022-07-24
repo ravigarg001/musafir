@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Scoreboard</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <div class="score-board">
+         <div class="home">
+            <h2 class="team">HOME</h2>
+            <h1 class="score" id="home-score">0</h1>
+            <div class="btn">
+               <button class="increase-score" onclick="increaseHomeBy1()">+1</button>
+               <button class="increase-score" onclick="increaseHomeBy2()">+2</button>
+               <button class="increase-score" onclick="increaseHomeBy3()">+3</button>
+            </div>
+         </div>
+         <div class="guest ">
+            <h2 class="team">GUEST</h2>
+            <h1 class="score"  id="guest-score">0</h1>
+            <div class="btn">
+               <button class="increase-score" onclick="increaseGuestBy1()">+1</button>
+               <button class="increase-score" onclick="increaseGuestBy2()">+2</button>
+               <button class="increase-score" onclick="increaseGuestBy3()">+3</button>
+            </div>
+         </div>
+      </div>
+<script src="script.js"></script>
+</body>
+</html>

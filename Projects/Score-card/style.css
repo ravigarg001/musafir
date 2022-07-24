@@ -1,0 +1,75 @@
+@font-face {
+   font-family: 'Cursed Timer ULiL';
+   src: url(resources/CursedTimerULiL.ttf);
+}
+
+
+.score-board{
+   width: 400px;
+   height: 300px;
+   display: flex;
+   justify-content: space-around;
+   border: 1px solid green;
+   text-align: center;
+   background: #1B244A;
+   padding: 70px 40px 70px 40px;
+   border-radius: 50px;
+   box-shadow: 0 0 80px;
+}
+
+.score {
+   font-weight: bold;
+   background: black;
+   color: #F94F6D;;
+   font-family: 'Cursed Timer ULiL';
+   font-size: 70px;
+   line-height: 126.67px;
+   font-weight: 400;
+   padding: 0 20px;
+   width: 120px;
+   height: 110px;
+   align-content: center;
+   margin-top: 15px;
+}
+
+body{
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center; /*centers items on the line (the x-axis by default)*/
+  align-items: center; /*centers items on the cross-axis (y by default)*/
+}
+
+.team{
+   color: white;
+   font-weight: bold;
+   /* border: 1px solid red; */
+   font-size: 45px;
+   margin-bottom: 0px;
+   padding-left: 0px;
+   padding-right: 0px;
+}
+
+.btn{
+   /* border: 2px solid red; */
+   display: flex;
+   justify-content: space-between;
+}
+
+.increase-score{
+   font-family: 'Cursed Timer ULiL';
+   padding: 9px;
+   font-weight: bold;
+   font-size: 20px;
+   background-color: transparent;
+   color: #9AABD8;
+   border: 1px solid #9AABD8;
+   border-radius:  5px;
+}
+
+button:hover{
+   color: green;
+}
+
